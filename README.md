@@ -2,8 +2,8 @@
 
 ## Overview
 
-This project is to detect the anomaly action in the recorded video using CNN and GAN.
-The deep learning model is trained with normal and abnormal videos for the first time. 
+This project is to detect the anomaly parts in the medical images using CNN and GAN.
+The deep learning model is trained with normal and abnormal CT scan images for the first time. 
 Then the fpr and tpr values according to all the threshold values are obtained while running projects with normal(positive) and
 abnormal (negative) then the ROC curve is plotted. Then the optimum threshold value can be obtained.
 
@@ -34,13 +34,6 @@ abnormal (negative) then the ROC curve is plotted. Then the optimum threshold va
         numpy==1.18.1
     ``` 
 
-- settings
-
-    * The  path and name of several directories
-    * The  path and name of the model and weights for this project 
-    * The path and name of result files(csv, png)
-    * The value of max gan loss and min gan loss, and the base value necessary for finding optimum threshold value
-
 ## Installation
 
 - Environment
@@ -52,8 +45,6 @@ abnormal (negative) then the ROC curve is plotted. Then the optimum threshold va
     ```
         pip3 intall -r requirements.txt
     ```
-  
-    * Note: if using GPU, please refer the requirements section in Structure.
 
 ## Execution
 
